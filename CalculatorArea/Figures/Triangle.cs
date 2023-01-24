@@ -17,11 +17,8 @@
         /// <summary>
         /// Треугольник со сторонами 1
         /// </summary>
-        public Triangle()
+        public Triangle() : this(1,1,1)
         {
-            SideA = 1;
-            SideB = 1;
-            SideC = 1;
         }
 
         /// <summary>
