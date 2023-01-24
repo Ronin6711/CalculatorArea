@@ -3,6 +3,7 @@ using CalculatorArea.Figures;
 
 namespace TestFigure
 {
+    [TestFixture]
     public class CircleTests
     {
         [Test]

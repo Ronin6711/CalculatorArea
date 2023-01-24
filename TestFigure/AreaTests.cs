@@ -2,6 +2,7 @@ using CalculatorArea;
 
 namespace TestFigure
 {
+    [TestFixture]
     public class AreaTests
     {
         [Test]

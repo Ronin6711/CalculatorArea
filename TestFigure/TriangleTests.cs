@@ -2,6 +2,7 @@
 
 namespace TestFigure
 {
+    [TestFixture]
     public class TriangleTests
     {
         [Test]
