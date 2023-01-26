@@ -1,4 +1,4 @@
-select p."NameProduct", c."NameCategories"
-from Products p
-left join ProductCategories pc on p.ID = pc.ProductId
-left join Categories c on pc.CategoryId = c.ID
+select Product.Title, Category.[Name]
+from Product
+left join ProductCategory on (Product.ID = ProductCategory.IDProduct)
+left join Category on (Category.ID = ProductCategory.IDCategory)
